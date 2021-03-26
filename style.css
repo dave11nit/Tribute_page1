@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+}
+#main{
+    background-color:rgb(238,238,238)
+}
+#title{
+    text-align: center;
+    font-size:2.4rem;
+    padding-top: 3.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+.lead{
+    text-align: center;
+    font-size:1.1rem;
+}
+#img-div{
+    max-width: 1000px;
+    margin:2rem auto;
+    /*making the white box around image----- unable to make the border*/
+}
+#img-div>image{
+    max-width: 1000px;
+}
+#image-caption{
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom:2rem;
+    margin-top:0.5rem;
+    color: #333;
+}
+/* from here i have coded without any assistance*/
+#tribute-info{
+    max-width: 600px;
+    margin:auto;
+    color:#333;
+}
+#tribute-info>h2{
+    text-align: center;
+    margin:3rem auto;
+    font-size: 1.25rem;
+    color: #333;
+}
+#tribute-info ul li {
+    margin: 1rem 0;
+}
+#tribute-info ul{
+    margin:2.5rem 0;
+}
+.quotes{
+    margin-top: 3rem;
+    color: #333;
+}
+.wiki_p{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color:#333;
+}
+#Myname{
+    text-align: center;
+    font-size: small;
+    font-style:oblique;
+    padding-bottom: 1rem;
+}
